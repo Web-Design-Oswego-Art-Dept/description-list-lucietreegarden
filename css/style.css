@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: rgba(234, 225, 201, 1);
+    font-family: "Jaini Purva";
+}
+.jaini-purva-regular {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+    padding:10px;
+    height:fit-content
+  }
+  .row{
+    content: "";
+    display: table;
+    clear:both
+  }
+  
+h1{
+   text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-indent:10px ;
+    font-weight: 200;
+    font-size: large;
+}
+dt{
+    font-weight: bold;
+    font-size: larger;
+}
+dd{
+  font-size: large;
+}
+img{
+  width: 100%;
+  height:auto ;  
+  display: none;
+}
