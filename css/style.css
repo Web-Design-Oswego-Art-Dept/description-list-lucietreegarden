@@ -1,35 +1,60 @@
-html{
-    background-color: rgba(234, 225, 201, 1);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: black;
-    line-height: 30px;
-    font-style: normal;
-    font-weight: 100;
+html {
+  background-color: rgba(234, 225, 201, 1);
+  font-family: axia, sans-serif;
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
 }
-  *{
-    box-sizing: border-box;
-  }
-  .column{
-    float: left;
-    width: 400px;
-    height:fit-content
-  }
-  
-h1{
-   text-align: center;
+
+* {
+  box-sizing: border-box;
 }
-h2{
-    text-align: center;
+
+.column {
+  float: left;
+  width: 400px;
+  height: fit-content;
+  padding: 15px;
 }
-p{
-    text-indent:10px ;
-    font-size: large;
+
+h1 {
+  text-align: center;
+  font-family: axia-stencil, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
 }
-dt{
-    font-weight: bold;
-    font-size: larger;
+
+h2 {
+  text-align: center;
+  font-family: axia, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
-dd{
+
+h3 {
+  font-family: axia, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  text-indent: 0px;
+  font-family: axia, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+dt {
+  font-family: axia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+dd {
   font-size: large;
+  font-family: axia, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
