@@ -1,7 +1,7 @@
 html {
   background-color: rgba(234, 225, 201, 1);
   font-family: axia, sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
   color: black;
   line-height: 30px;
 }
@@ -10,11 +10,13 @@ html {
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  width: 400px;
-  height: fit-content;
-  padding: 15px;
+.columns {
+  -webkit-columns: 4 150px;
+  -moz-columns: 4 150px;
+  columns: 1 300px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
 }
 
 h1 {
@@ -22,6 +24,7 @@ h1 {
   font-family: axia-stencil, sans-serif;
   font-weight: 900;
   font-style: normal;
+  display:inline-block;
 
 }
 
@@ -36,6 +39,7 @@ h3 {
   font-family: axia, sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.25rem;
 }
 
 p {
@@ -50,11 +54,22 @@ dt {
   font-family: axia, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.25rem;
 }
 
 dd {
-  font-size: large;
+
   font-family: axia, sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+.pos{
+font-family: axia, sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+img{
+  width: 50px;
+  height: 50px;
 }
