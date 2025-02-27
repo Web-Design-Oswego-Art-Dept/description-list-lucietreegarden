@@ -26,14 +26,15 @@ html {
 
 header {
   padding: 1rem;
-  max-width: 35rem;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
+  background-image:auto;
 }
 
 main {
   padding: 1rem;
-  max-width: 35rem;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,10 +42,11 @@ main {
 .columns {
   -webkit-columns: 4 150px;
   -moz-columns: 4 150px;
-  columns: 1 300px;
+  columns: 2 300px;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   column-gap: 2em;
+  column-width: 20em;
 }
 
 h1 {
@@ -57,16 +59,17 @@ h1 {
 }
 
 h2 {
-  text-align: center;
   font-family: axia, sans-serif;
   font-weight: 900;
   font-style: normal;
+  text-align: center;
 }
 
 h3 {
   font-weight: 700;
   font-size: 1.50rem;
   text-align: center;
+
 }
 
 img {
@@ -75,9 +78,10 @@ img {
 }
 
 p {
-  text-indent: 0px;
+  text-indent: 0rem;
   margin-bottom: 1.25rem;
-  line-height: 1.25rem;
+  line-height: 1.75rem;
+
   /* put margin top or bottom will give space */
 }
 
@@ -87,13 +91,14 @@ dt {
 }
 
 dd {
-  text-indent: 1rem;
-  line-height: 1.25rem;
-  margin-bottom: .75rem;
+  text-indent: 0rem;
+  line-height: 1.75rem;
+  margin-bottom:.75rem;
 }
 
 .pos {
   font-style: italic;
+  text-indent: 1rem;
 }
 
 .extra {
