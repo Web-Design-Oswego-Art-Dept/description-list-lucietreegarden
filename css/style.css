@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.system-font-stack{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+html {
+  background-color: rgba(234, 225, 201, 1);
+  font-size: 1rem;
+  color: black;
+  line-height: 2rem;
+  font-family: axia, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  padding: 1rem;
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:auto;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columns {
+  columns: 2 300px;
+  column-gap: 2em;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: axia-stencil, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+
+}
+
+h2 {
+  font-family: axia, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.50rem;
+  text-align: center;
+
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  text-indent: 0rem;
+  margin-bottom: 1.25rem;
+  margin-top: .25rem;
+  line-height: 1.75rem;
+}
+
+dt {
+  font-size: 1.25rem;
+  text-indent: 1rem;
+  margin-bottom: .25rem;
+}
+
+dd {
+  text-indent: 0rem;
+  line-height: 1.75rem;
+  margin-bottom:.75rem;
+}
+
+.pos {
+  font-style: italic;
+  text-indent: 1rem;
+}
+
+.extra {
+  margin-bottom: 2.25rem;
+}
+
+footer {
+  padding: 1rem;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
